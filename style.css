@@ -1,0 +1,153 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+.home{
+    margin-left: 2%;
+    position: fixed;
+    row-gap: 10px;
+    background-color: white;
+    width: 300px;
+    height: 1000px;
+    color: black;
+    margin-top: -20px;
+}
+h1{
+    font-size: 50px;
+    color: black;
+}
+p{
+    color: black;
+}
+.video2{
+    margin-top: -180px;
+    margin-left: 400px;
+}
+.about{
+    margin-left: 400px;
+}
+.column{
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    position: relative;
+    justify-content: space-between;
+}
+.row{
+    display: block;
+}
+#image{
+    opacity: 80%;
+    border: 2px solid gray;
+}
+#image:hover {
+    opacity:100%;
+    border:2px solid black;
+    border-radius: 15%;
+}
+#loc1{
+    background-color: black;
+    color: white; 
+    height: 60px; 
+    width: 200px; 
+    text-align: center;
+    margin-left: 5%;
+}
+#loc2{
+    border: 2px solid black;
+    height: 60px; 
+    width: 200px; 
+    text-align: center;
+    margin-left: 10%;
+}
+.video1{
+    margin-left: 350px;
+    margin-top: -15%;
+}
+.search{
+    display: flex;
+}
+#search{
+    margin-left:13% ;
+    height: 30px;
+    width: 800px;
+}
+.model{
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.end{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    margin-left:400px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+#sml{
+    margin-left: 25px;
+    margin-top: -30px;
+}
+.nav{
+    display: flex;
+    font-size: xx-large;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.nav h2{
+    margin-top: 10px;;
+}
+a{
+    text-decoration: none;
+}
+.account h1{
+    position: absolute;
+    left: 300px;
+    top: 280px;
+}
+:hover .account{
+    animation: movebg 8s infinite;
+}
+@keyframes movebg{
+    10%{
+        background-image: url(https://c0.wallpaperflare.com/preview/437/75/614/whitespace-desktop-business-office.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    45%{
+        background-image: url(https://thumbs.dreamstime.com/b/celine-sign-hong-kong-china-circa-january-close-up-shot-seen-elements-shopping-mall-174419769.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(https://image.slidesdocs.com/responsive-images/background/creative-business-line-clean-yellow-simple-powerpoint-background_f1fc37da6d__960_540.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.box{
+    height:100px;
+    width:420px;
+    border: 3px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: auto;
+    margin-top: 250px;
+    border-radius: 50px;
+    padding: 3%;
+    background-color: rgba(221, 221, 220,0.2);
+    font-size: xx-large;
+}
+.success{
+    font-size: 50px;
+    margin-top: 150px;
+    color: black;
+}
+#next{
+    margin-left: 600px;
+    height: 20px;
+    width: 25px;
+    margin-top: 35px;
+}

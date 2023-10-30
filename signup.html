@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+        background-image: url("https://i8.amplience.net/i/flooranddecor/101000230_celine-chevron-thassos-mother-of-pearl-marble-mosaic_display?fmt=auto&qlt=85");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        }
+        .radio{
+            margin-left: 12%;
+        }
+        .button{
+            margin-left: 23%;
+        }
+        .btn{
+            border: 1px solid black;
+            background-color: gainsboro;
+            opacity: 0.8;
+            padding-right: 25px;
+            padding-left: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 25px;
+        }
+        .sign{
+            height: 550px;
+            width: 430px;
+            border: 1px solid black;
+            padding: 15px;
+            background-color: transparent;
+            margin-left: 15%;
+            border-top-right-radius: 10%;
+            border-bottom-left-radius: 10%;
+            margin-top: 3%;
+            font-size: x-large;
+        }
+        .sign:hover {
+            box-shadow: 1px 1px 1px 1px black;
+            background-color: /*rgba(255, 250, 250, 0.462)*/transparent;
+            border: 2px solid black;
+        }
+        .tag,.tagname{
+            padding: 10px;
+        }
+        img{
+            margin-top: -25%;
+            margin-right: 250px;
+        }
+    </style>
+</head>
+<body>
+    <form action="./successpage.html">
+        <div class="sign">
+            <table class="table" style="font-size: 22.5px;">
+                <tr>
+                    <td class="tagname"><label for="firstname"><b>First Name</b></label></td><td class="tag"><b>:</b></td><td class="tag"><input type="text" id="firstname" name="firstname" placeholder="Enter your First Name" required></td>
+                </tr>
+                <tr>
+                    <td class="tagname"><label for="middlename"><b>Middle Name</b></label></td><td class="tag"><b>:</b></td><td class="tag"><input type="text" id="middlename" name="middlename" placeholder="Enter your Middle Name" required></td>
+                </tr>
+                <tr>
+                    <td class="tagname"><label for="lastname"><b>Last Name</b></label></td><td class="tag"><b>:</b></td><td class="tag"><input type="text" id="lastname" name="lastname" placeholder="Enter your Last Name" required></td>
+                </tr>
+                <tr>
+                    <td class="tagname"><label for="dob"><b>Date of Birth</b></label></td><td class="tag"><b>:</b></td><td class="tag"><input type="date" id="dob" name="dob"  required></td>
+                </tr>
+                <tr>
+                    <td><b>&nbsp;Gender</b></td><td><b>&nbsp;:</b></td>
+                    <td><input type="radio" id="male" name="gender" value="male"><b>Male</b><input type="radio" id="female" name="gender" value="female" required><b>Female</b></td>
+                </tr>
+                
+                    <tr>
+                        <td class="tagname"><label for="mail"><b>Your Mail ID</b></label></td><td class="tag"><b>:</b></td><td class="tag"><input type="mail" id="mail" name="mail" placeholder="Enter your Email Address" required></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="tagname"><label for="password"><b>Password</b></label></td><td class="tag"><b>:</b></td><td class="tag"><input type="password" id="password" name="password" placeholder="Enter a Strong Password" pattern="(?=.*[#,@,!,$,%,^,&,*])(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,15}" required></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="tagname"><label for="confirm password"><b>Confirm Password</b></label></td><td class="tag"><b>:</b></td><td class="tag"><input type="password" id="confirm password" name="confirm password" placeholder="Re-Enter Your Password" pattern="(?=.*[#,@,!,$,%,^,&,*])(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,15}" required></td>
+                    </tr>
+                </table>
+                <div class="button">
+                    <br><br>
+                <a rel="stylesheet" href="./successpage.html"> <button class="btn" style="font-size: 25px;" type="submit" onclick="return validate()">Create Account</button></a>
+                </div>
+        </div>
+        </form>
+    <img align="right" src="https://logos-world.net/wp-content/uploads/2023/01/Celine-Logo-1973.png" height="300px" width="300px">
+    <script src="./design.js"></script>
+</body>
+</html>

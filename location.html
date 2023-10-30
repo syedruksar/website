@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srore Location</title>
+    <link rel="stylesheet" href="./style.css" >
+    <style>
+        body {
+           background-image: url("https://media.istockphoto.com/id/1359679957/photo/white-business-style-background.webp?b=1&s=170667a&w=0&k=20&c=_jkkQr7j10754um12gvj-PoROIlrsF9U0iJI8rk4fpU=");
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: 100% 100%;
+        }
+        #submit{
+            height: 50px;
+            width: 120px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <a style="text-decoration: none;" href="./home.html"><h3 align="right"> Home</h3></a>
+    <h1>Celine</h1>
+    <img align="left" src="https://dynl.mktgcdn.com/p/PiVD_X7qKWzeSPku-eApN97DrjTWl_663JSMWs5m83w/2560x2560.jpg" alt="" height="80%" width="60%" hspace="30px">
+    <p><h2>Stores</h2></p>
+    <label for="Country/Region">Choose a Country/Region:</label>
+    <select name="Country/Region" id="country">
+        <option value="others">Others</option>
+        <option value="Australia">Australia</option>
+        <option value="Belzium">Belzium</option>
+        <option value="London">London</option>
+        <option value="Singapore">Singapore</option>
+        <option value="India">India</option>
+    </select>
+    <br><br>
+    <p><input type="text" placeholder="Enter a City and State,Zip code/Street code"></p>
+    <br><br>
+    <a href="./home.html"><input type="submit" id="submit"placeholder="submit"></a>
+    <a href="./home.html"><input type="submit" id="submit"value="Geolocate"></a>
+</body>
+</html>
